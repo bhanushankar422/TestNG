@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13365" started-at="2020-08-03T22:14:39 CDT" finished-at="2020-08-03T22:14:52 CDT">
+  <suite name="Suite1" duration-ms="25698" started-at="2020-08-03T22:44:10 CDT" finished-at="2020-08-03T22:44:36 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13365" started-at="2020-08-03T22:14:39 CDT" finished-at="2020-08-03T22:14:52 CDT">
+    <test name="Regression1" duration-ms="25698" started-at="2020-08-03T22:44:10 CDT" finished-at="2020-08-03T22:44:36 CDT">
       <class name="com.testing.TestNG.GoogleTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestNG.GoogleTest@1f554b06]" name="beforeMethod" is-config="true" duration-ms="2819" started-at="2020-08-03T22:14:39 CDT" finished-at="2020-08-03T22:14:42 CDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestNG.GoogleTest@614ddd49]" name="beforeMethod" is-config="true" duration-ms="3870" started-at="2020-08-03T22:44:10 CDT" finished-at="2020-08-03T22:44:14 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testing.TestNG.GoogleTest@1f554b06]" name="f" duration-ms="5649" started-at="2020-08-03T22:14:42 CDT" data-provider="dp" finished-at="2020-08-03T22:14:48 CDT">
+        <test-method status="PASS" signature="testJavaSearch()[pri:0, instance:com.testing.TestNG.GoogleTest@614ddd49]" name="testJavaSearch" duration-ms="5975" started-at="2020-08-03T22:44:14 CDT" description="Test for java keyword" finished-at="2020-08-03T22:44:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJavaSearch -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestNG.GoogleTest@614ddd49]" name="beforeMethod" is-config="true" duration-ms="1556" started-at="2020-08-03T22:44:20 CDT" finished-at="2020-08-03T22:44:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSeleniumSearch()[pri:0, instance:com.testing.TestNG.GoogleTest@614ddd49]" name="testSeleniumSearch" duration-ms="3355" started-at="2020-08-03T22:44:22 CDT" description="Test for selenium keyword" finished-at="2020-08-03T22:44:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeleniumSearch -->
+      </class> <!-- com.testing.TestNG.GoogleTest -->
+      <class name="com.testing.TestNG.GoogleTestWithDataProvider">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestNG.GoogleTestWithDataProvider@1f554b06]" name="beforeMethod" is-config="true" duration-ms="1385" started-at="2020-08-03T22:44:25 CDT" finished-at="2020-08-03T22:44:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testing.TestNG.GoogleTestWithDataProvider@1f554b06]" name="f" duration-ms="4541" started-at="2020-08-03T22:44:26 CDT" description="Testing with DataProvider" data-provider="dp" finished-at="2020-08-03T22:44:31 CDT">
           <params>
             <param index="0">
               <value>
@@ -27,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestNG.GoogleTest@1f554b06]" name="beforeMethod" is-config="true" duration-ms="1464" started-at="2020-08-03T22:14:48 CDT" finished-at="2020-08-03T22:14:49 CDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestNG.GoogleTestWithDataProvider@1f554b06]" name="beforeMethod" is-config="true" duration-ms="1536" started-at="2020-08-03T22:44:31 CDT" finished-at="2020-08-03T22:44:32 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testing.TestNG.GoogleTest@1f554b06]" name="f" duration-ms="3359" started-at="2020-08-03T22:14:49 CDT" data-provider="dp" finished-at="2020-08-03T22:14:52 CDT">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testing.TestNG.GoogleTestWithDataProvider@1f554b06]" name="f" duration-ms="3377" started-at="2020-08-03T22:44:32 CDT" description="Testing with DataProvider" data-provider="dp" finished-at="2020-08-03T22:44:36 CDT">
           <params>
             <param index="0">
               <value>
@@ -47,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.testing.TestNG.GoogleTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.testing.TestNG.GoogleTestWithDataProvider -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
